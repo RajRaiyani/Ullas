@@ -5,20 +5,17 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
+    color: var(--gold);
 }
 
 :root {
-    --green: #8bc53f;
-    --blue: #03487c;
+    --gold: #F6DA74;
     font-size: 10px;
+    background-color: black;
 }
 
-.blue {
-    color: var(--blue);
-}
-
-.green {
-    color: var(--green);
+.gold{
+    color: var(--gold);
 }
 
 
@@ -51,7 +48,7 @@
 }
 
 .text-info{
-    color: rgb(97, 97, 97);
+    color: rgb(158, 158, 158);
 }
 
 .center-v{
