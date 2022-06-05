@@ -1,4 +1,3 @@
-
 /* 
 this is the website for top growth and 
 we have used some of the color codes here 
@@ -51,7 +50,7 @@ we have included fonts from google fonts and
 }
 
 
-.links{
+.links {
     display: none;
 }
 
@@ -71,7 +70,7 @@ we have included fonts from google fonts and
 
 /* buger button */
 
-.burger-btn{
+.burger-btn {
     position: relative;
     top: 0;
     right: 0;
@@ -85,10 +84,12 @@ we have included fonts from google fonts and
     transition: 0.3s;
 
 }
-.burger-btn:hover{
+
+.burger-btn:hover {
     transform: scale(1.1);
 }
-.burger-bar{
+
+.burger-bar {
     background-color: var(--gold);
     width: 100%;
     height: 5px;
@@ -99,7 +100,7 @@ we have included fonts from google fonts and
 
 /* navigation bar for mobile */
 
-.navbar-mobile{
+.navbar-mobile {
     position: fixed;
     display: none;
     flex-direction: column;
@@ -115,7 +116,8 @@ we have included fonts from google fonts and
     box-shadow: 1px 1px 10px var(--gold);
     background-color: black;
 }
-.links-2{
+
+.links-2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -123,7 +125,8 @@ we have included fonts from google fonts and
     align-items: center;
 
 }
-.links-2>.link{
+
+.links-2>.link {
     font-size: 1.7rem;
 }
 
@@ -151,7 +154,7 @@ we have included fonts from google fonts and
     position: relative;
     display: block;
     top: 20vh;
-    transform: translate(0,-10%);
+    transform: translate(0, -10%);
     margin: 0 auto;
     padding: -2.7rem;
     width: 47vw;
@@ -292,7 +295,7 @@ we have included fonts from google fonts and
 
 
 
-.about{
+.about {
     width: fit-content;
     margin: 9rem auto;
     display: grid;
@@ -314,19 +317,19 @@ we have included fonts from google fonts and
 }
 
 
-.grid-box-1{
+.grid-box-1 {
     grid-column: 1 / span 2;
 }
 
-.grid-box-3{
+.grid-box-3 {
     grid-column: 1 / span 2;
     border-radius: 2rem;
-    grid-row: 2 / span 1 ;
+    grid-row: 2 / span 1;
     box-shadow: 0px 0px 5px 1px var(--gold);
 }
 
-.grid-box-2{
-    grid-row: 1 /  span  3;
+.grid-box-2 {
+    grid-row: 1 / span 3;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -334,7 +337,7 @@ we have included fonts from google fonts and
     box-shadow: 0px 0px 5px 1px var(--gold);
 }
 
-.grid-box-5{
+.grid-box-5 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -344,14 +347,15 @@ we have included fonts from google fonts and
 }
 
 
-.my-insta-logo{
+.my-insta-logo {
     font-size: 8rem;
     width: 100%;
     color: var(--gold);
     text-align: center;
     margin: 2rem 0;
 }
-.my-linkdin-logo{
+
+.my-linkdin-logo {
     font-size: 5rem;
     width: 100%;
     color: var(--gold);
@@ -359,7 +363,7 @@ we have included fonts from google fonts and
     margin: 1rem 0;
 }
 
-.visit-insta{
+.visit-insta {
     padding: 1rem 2rem;
     background-color: var(--gold);
     font-weight: 600;
@@ -371,11 +375,12 @@ we have included fonts from google fonts and
     text-decoration: none;
     transition: 0.3s;
 }
-.visit-insta:hover{
+
+.visit-insta:hover {
     transform: scale(1.05);
 }
 
-.visit-linkdin{
+.visit-linkdin {
     padding: 0.8rem 1.6rem;
     font-weight: 600;
     background-color: var(--gold);
@@ -387,7 +392,8 @@ we have included fonts from google fonts and
     text-decoration: none;
     transition: 0.3s;
 }
-.visit-linkdin:hover{
+
+.visit-linkdin:hover {
     transform: scale(1.05);
 }
 
@@ -417,33 +423,39 @@ we have included fonts from google fonts and
 
 
 
-.should{
+.should {
     margin: 9rem 0;
 }
-.sw-flex-box{
+
+.sw-flex-box {
     display: block;
 
     width: 100%;
 }
-.should-mid{
+
+.should-mid {
     width: 100%;
     height: 100%;
 }
-.should-right{
+
+.should-right {
     width: 100%;
     height: 100%;
 }
-.mini-box-sw{
+
+.mini-box-sw {
     width: 80vw;
     display: flex;
     margin: 2rem auto;
 }
-.img-112{
+
+.img-112 {
     width: 80vw;
     display: block;
     margin: 0 auto;
 }
-.my-fa-icon{
+
+.my-fa-icon {
     font-size: 2.3rem;
     color: var(--gold);
     padding: 0.3rem 1.5rem;
@@ -496,9 +508,10 @@ we have included fonts from google fonts and
     opacity: 1;
 }
 
-.contact-c-box{
+.contact-c-box {
     margin: 0 2rem 0 0;
 }
+
 .p-email-box {
     text-align: right;
     margin: 2rem 2rem 0 0;
@@ -506,7 +519,7 @@ we have included fonts from google fonts and
 
 
 
-.contact-c-box{
+.contact-c-box {
     text-align: right;
 }
 
@@ -556,4 +569,3 @@ we have included fonts from google fonts and
     color: rgb(203, 203, 203);
     transform: scale(1.05);
 }
-

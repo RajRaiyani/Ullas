@@ -83,6 +83,10 @@
         transform: translate(-50%);
         margin: 0;
     }
+
+    .item-box{
+        width: 20vw;
+    }
     
 
 }
